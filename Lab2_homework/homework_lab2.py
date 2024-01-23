@@ -2,7 +2,7 @@ import csv
 
 total_records = 0 
 
-with open() as csvfile:
+with open(lab2b.csv) as csvfile:
 
     file = csv.reader(csvfile)
 
