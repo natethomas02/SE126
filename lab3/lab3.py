@@ -28,7 +28,7 @@ with open ("lab3/lab3a.csv") as csvfile:
 
         total_records += 1
 
-
+                     
         if rec[0] == "D":
             comp_type = "Desktop"
         elif rec[0] == "L":
@@ -44,6 +44,9 @@ with open ("lab3/lab3a.csv") as csvfile:
             manu = rec[1]
         else:
             manu = "*ERROR --" + str(rec[1])
+
+        if 
+            new_desktop += 1
 
         processor = rec[2]
         ram = rec[3]
@@ -66,8 +69,7 @@ with open ("lab3/lab3a.csv") as csvfile:
             os = "ERROR"
             year = "ERROR"
 
-        if str(year) <= int(16):
-            new_desktop +=1
+        
 
         comp_type_list.append(comp_type)
         manu_list.append(manu)
