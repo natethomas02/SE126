@@ -35,7 +35,7 @@ with open("lab3_homework/voters_202040.csv") as csvfile:
         registered.append(rec[2])
         voted.append(rec[3])
 #print total records recorded
-print(f"Total records processed: {total_records}")
+print(f"\nTotal records processed: {total_records}")
 print("-----------------------------------------------")
 #for loop, set counters for appropriate variables
 for i in range(total_records):
